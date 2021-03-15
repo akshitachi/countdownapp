@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*
+{
+    box-sizing:border-box;
+}
+body{
+    background-image: url("https://www.pixel4k.com/wp-content/uploads/2018/11/anime-cityscape-landscape-scenery-4k_1541975011-768x432.jpg");
+    font-family:"Poppins",sans-serif;
+    margin:0;
+    min-height:100vh;
+    background-size: cover;
+    background-position:center center;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+h1{
+    font-weight:normal;
+    font-size:4rem;
+    margin-top:5rem;
+}
+.countdown-container{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.big-text{
+    font-weight:bold;
+    font-size:6rem;
+    line-height:1;
+    margin:0 2rem;
+}
+.countdown-el{
+    text-align:center;
+}
+.countdown-el span{
+    font-size:1.5rem;
+}
